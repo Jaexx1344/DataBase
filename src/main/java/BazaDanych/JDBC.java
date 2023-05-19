@@ -3,7 +3,7 @@ package BazaDanych;
 public class JDBC {
 
     public static void main(String[] args) {
-        DataBase dataBase = new DataBase();
-        dataBase.zapytanie();
+        Menu menu = new Menu();
+        menu.menu();
     }
 }
